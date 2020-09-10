@@ -1,0 +1,1 @@
+workspace(name = "com_github_boompyz_cc_embed")
