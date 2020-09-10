@@ -23,7 +23,7 @@ cc_embed = rule(
             executable = True,
             cfg = "host",
             allow_files = True,
-            default = Label("//embed_file:cc_embed"),
+            default = Label("//:cc_embed"),
         )
     }
 )
